@@ -1,0 +1,1171 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2F1E13951302F39DAD65718A /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DC6FC351A55B46FC8012D866 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				6B9B550F9ACEDEE1E9B778A0 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		95FE0E650330A7827A2EB86D /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 62E35E43DD6946359DA2C17D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				0F9A5E41BC6932A830D40248 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				706427B229DA42CCB5B31CF0 /* PBXTargetDependency */,
+				74068C624CC04BC49F24FF22 /* PBXTargetDependency */,
+				1A27C377CB9F4697952A7E7F /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		BAA2D8A79FF4F3A7FD81AC7D /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 00BA0BB5AD204A26AE198B7F /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				E23143BD0CFC468981395181 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0D314F1C9FEC42C78C750095 /* /Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = FF84F928886F4F3D881A1874 /* /Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/CMakeLists.txt */; };
+		6AE4E6B5332F49A78A973707 /* /Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/src/glew.c */ = {isa = PBXBuildFile; fileRef = B48D996327664DDDB45F0175 /* /Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/src/glew.c */; };
+		81241C5D0BCA42D799C8A0FB /* /Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E0BF3AFC768D43E39D9E409A /* /Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/CMakeLists.txt */; };
+		A05A981EA2804E17AD513316 /* /Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/src/glew.c */ = {isa = PBXBuildFile; fileRef = 9D847398BA1C4BB4AE6EF14F /* /Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/src/glew.c */; };
+		A1362F6FBC3246D082D7F224 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/System/Library/Frameworks/OpenGL.framework */ = {isa = PBXBuildFile; fileRef = 12828CEB28DD4B28B6238B92 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/System/Library/Frameworks/OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1AE5FE79632A4D519E4B0E95 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		36961AA1C3A648E293771F7C /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		DB85FF55534D4487B0CAA41D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		FFFA0DC981394D6C8D993CC4 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1023766A17EE4CB6BE38DD23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45AA398B28CC449EB73D10B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F1E13951302F39DAD65718A;
+			remoteInfo = ZERO_CHECK;
+		};
+		4400A04C5AB449E6BF0F4AE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45AA398B28CC449EB73D10B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95FE0E650330A7827A2EB86D;
+			remoteInfo = ALL_BUILD;
+		};
+		90A3564BB9E8445B95C1D95D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45AA398B28CC449EB73D10B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F1E13951302F39DAD65718A;
+			remoteInfo = ZERO_CHECK;
+		};
+		B7F7AA6C00F94570AD04D58D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45AA398B28CC449EB73D10B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C24C16C2BEE9D1469263D11;
+			remoteInfo = libglew_static;
+		};
+		DD3311FB25BD43A8B6FB08A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45AA398B28CC449EB73D10B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25BDBA507E83E54129346FB6;
+			remoteInfo = libglew_shared;
+		};
+		F066E8E753514716A2638BF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45AA398B28CC449EB73D10B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F1E13951302F39DAD65718A;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12828CEB28DD4B28B6238B92 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/System/Library/Frameworks/OpenGL.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		317A86A907294FEAA71FBEF5 /* /Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7672D3E463C4473EAA7AE7C3 /* libglew_shared */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = "libglew-sharedd.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D847398BA1C4BB4AE6EF14F /* /Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/src/glew.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glew.c; path = src/glew.c; sourceTree = SOURCE_ROOT; };
+		B48D996327664DDDB45F0175 /* /Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/src/glew.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glew.c; path = src/glew.c; sourceTree = SOURCE_ROOT; };
+		E0BF3AFC768D43E39D9E409A /* /Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F01EAF2091684900B3C52324 /* libglew_static */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglewd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF84F928886F4F3D881A1874 /* /Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE61FFAFD975479C9F20A92F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFA0F2327864385AAAC1FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00106B37B68C4385B1B7BE52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7672D3E463C4473EAA7AE7C3 /* libglew_shared */,
+				F01EAF2091684900B3C52324 /* libglew_static */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8666B5E56D5147EFB0864FB0 /* libglew_shared */ = {
+			isa = PBXGroup;
+			children = (
+				E4DFA31754EC43A89F55D4DE /* Source Files */,
+				FF84F928886F4F3D881A1874 /* /Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/CMakeLists.txt */,
+			);
+			name = libglew_shared;
+			sourceTree = "<group>";
+		};
+		8FCC2521E48E4262A41E7DE0 /* libglew_static */ = {
+			isa = PBXGroup;
+			children = (
+				EE364FA3AA2D4740937077AC /* Source Files */,
+				E0BF3AFC768D43E39D9E409A /* /Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/CMakeLists.txt */,
+			);
+			name = libglew_static;
+			sourceTree = "<group>";
+		};
+		B52C6DD7DD1F414DB0796827 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				E150F606752C46CAB172EAE6 /* CMake Rules */,
+				317A86A907294FEAA71FBEF5 /* /Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		D0F2B7713CCF4AD3B36004C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12828CEB28DD4B28B6238B92 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/System/Library/Frameworks/OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E150F606752C46CAB172EAE6 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E4DFA31754EC43A89F55D4DE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B48D996327664DDDB45F0175 /* /Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/src/glew.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E95799B7CB6D4AE3B9D28BDF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EE364FA3AA2D4740937077AC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D847398BA1C4BB4AE6EF14F /* /Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/src/glew.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F033DF5F57DE4C4990DE7EF9 = {
+			isa = PBXGroup;
+			children = (
+				8FCC2521E48E4262A41E7DE0 /* libglew_static */,
+				8666B5E56D5147EFB0864FB0 /* libglew_shared */,
+				B52C6DD7DD1F414DB0796827 /* ALL_BUILD */,
+				00106B37B68C4385B1B7BE52 /* Products */,
+				D0F2B7713CCF4AD3B36004C5 /* Frameworks */,
+				E95799B7CB6D4AE3B9D28BDF /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25BDBA507E83E54129346FB6 /* libglew_shared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F9710E24954E10B0407F5B /* Build configuration list for PBXNativeTarget "libglew_shared" */;
+			buildPhases = (
+				B5DFA9AFFE5C413F9657C60E /* Sources */,
+				CE61FFAFD975479C9F20A92F /* Frameworks */,
+				6BB20D90FC8719E30704E630 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8783C6184344FC89C79A72A /* PBXTargetDependency */,
+			);
+			name = libglew_shared;
+			productName = libglew_shared;
+			productReference = 7672D3E463C4473EAA7AE7C3 /* libglew_shared */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		5C24C16C2BEE9D1469263D11 /* libglew_static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD2045788A547D1A382E252 /* Build configuration list for PBXNativeTarget "libglew_static" */;
+			buildPhases = (
+				49F37636F9B6497A849AA44F /* Sources */,
+				DBFA0F2327864385AAAC1FAA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				793F5CBD91774A94B5F536CB /* PBXTargetDependency */,
+			);
+			name = libglew_static;
+			productName = libglew_static;
+			productReference = F01EAF2091684900B3C52324 /* libglew_static */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45AA398B28CC449EB73D10B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2610;
+			};
+			buildConfigurationList = C66DA52A840D4A25B382D33A /* Build configuration list for PBXProject "glew" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				DB85FF55534D4487B0CAA41D /* Debug */,
+				36961AA1C3A648E293771F7C /* Release */,
+				FFFA0DC981394D6C8D993CC4 /* MinSizeRel */,
+				1AE5FE79632A4D519E4B0E95 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = F033DF5F57DE4C4990DE7EF9;
+			projectDirPath = "/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake";
+			projectRoot = "";
+			targets = (
+				95FE0E650330A7827A2EB86D /* ALL_BUILD */,
+				2F1E13951302F39DAD65718A /* ZERO_CHECK */,
+				BAA2D8A79FF4F3A7FD81AC7D /* install */,
+				25BDBA507E83E54129346FB6 /* libglew_shared */,
+				5C24C16C2BEE9D1469263D11 /* libglew_static */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F9A5E41BC6932A830D40248 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake\"
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake\"
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6B9B550F9ACEDEE1E9B778A0 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake\"
+  make -f /Users/paul/Desktop/ET\\ 3/S5/Info\\ Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake\"
+  make -f /Users/paul/Desktop/ET\\ 3/S5/Info\\ Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake\"
+  make -f /Users/paul/Desktop/ET\\ 3/S5/Info\\ Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake\"
+  make -f /Users/paul/Desktop/ET\\ 3/S5/Info\\ Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		6BB20D90FC8719E30704E630 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake\"
+  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/paul/Desktop/ET\\ 3/S5/Info\\ Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake/lib/Debug/libglew-sharedd.2.2.0.dylib /Users/paul/Desktop/ET\\ 3/S5/Info\\ Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake/lib/Debug/libglew-sharedd.2.2.0.dylib /Users/paul/Desktop/ET\\ 3/S5/Info\\ Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake/lib/Debug/libglew-sharedd.dylib
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake\"
+  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/paul/Desktop/ET\\ 3/S5/Info\\ Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake/lib/Release/libglew-shared.2.2.0.dylib /Users/paul/Desktop/ET\\ 3/S5/Info\\ Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake/lib/Release/libglew-shared.2.2.0.dylib /Users/paul/Desktop/ET\\ 3/S5/Info\\ Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake/lib/Release/libglew-shared.dylib
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake\"
+  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/paul/Desktop/ET\\ 3/S5/Info\\ Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake/lib/MinSizeRel/libglew-shared.2.2.0.dylib /Users/paul/Desktop/ET\\ 3/S5/Info\\ Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake/lib/MinSizeRel/libglew-shared.2.2.0.dylib /Users/paul/Desktop/ET\\ 3/S5/Info\\ Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake/lib/MinSizeRel/libglew-shared.dylib
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake\"
+  /Applications/CMake.app/Contents/bin/cmake -E cmake_symlink_library /Users/paul/Desktop/ET\\ 3/S5/Info\\ Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake/lib/RelWithDebInfo/libglew-shared.2.2.0.dylib /Users/paul/Desktop/ET\\ 3/S5/Info\\ Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake/lib/RelWithDebInfo/libglew-shared.2.2.0.dylib /Users/paul/Desktop/ET\\ 3/S5/Info\\ Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake/lib/RelWithDebInfo/libglew-shared.dylib
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd \"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake\"
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd \"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake\"
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd \"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake\"
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd \"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake\"
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49F37636F9B6497A849AA44F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05A981EA2804E17AD513316 /* /Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/src/glew.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5DFA9AFFE5C413F9657C60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE4E6B5332F49A78A973707 /* /Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/src/glew.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A27C377CB9F4697952A7E7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F1E13951302F39DAD65718A /* ZERO_CHECK */;
+			targetProxy = F066E8E753514716A2638BF7 /* PBXContainerItemProxy */;
+		};
+		706427B229DA42CCB5B31CF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C24C16C2BEE9D1469263D11 /* libglew_static */;
+			targetProxy = B7F7AA6C00F94570AD04D58D /* PBXContainerItemProxy */;
+		};
+		74068C624CC04BC49F24FF22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25BDBA507E83E54129346FB6 /* libglew_shared */;
+			targetProxy = DD3311FB25BD43A8B6FB08A5 /* PBXContainerItemProxy */;
+		};
+		793F5CBD91774A94B5F536CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F1E13951302F39DAD65718A /* ZERO_CHECK */;
+			targetProxy = 90A3564BB9E8445B95C1D95D /* PBXContainerItemProxy */;
+		};
+		D8783C6184344FC89C79A72A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F1E13951302F39DAD65718A /* ZERO_CHECK */;
+			targetProxy = 1023766A17EE4CB6BE38DD23 /* PBXContainerItemProxy */;
+		};
+		E23143BD0CFC468981395181 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95FE0E650330A7827A2EB86D /* ALL_BUILD */;
+			targetProxy = 4400A04C5AB449E6BF0F4AE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CB8C918FA949BA8B98BC31 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake/lib/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = 2.2.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",libglew_shared_EXPORTS,GLEW_BUILD,GLEW_NO_GLU,"'SHADER_DIR=\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/shaders/\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/include\"","\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/include\"","\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glfw/include\"","\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glm\"","$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG -fPIC ","$(inherited)");
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","-framework OpenGL","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "glew-shared.2.2.0";
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/System/Library/Frameworks,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/build/libglew_shared.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0405D6D3861840CB99C10B90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		136DB28BA7994B52AFD8696B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake/lib/Debug";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = 2.2.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",libglew_shared_EXPORTS,GLEW_BUILD,GLEW_NO_GLU,"'SHADER_DIR=\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/shaders/\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/include\"","\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/include\"","\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glfw/include\"","\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glm\"","$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   -fPIC ","$(inherited)");
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","-framework OpenGL","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "glew-sharedd.2.2.0";
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/System/Library/Frameworks,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/build/libglew_shared.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		20C024ACEBCD4BAFA1E39D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2BBE6425AF2748C1BD52AB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake/lib/Release";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = 2.2.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",libglew_shared_EXPORTS,GLEW_BUILD,GLEW_NO_GLU,"'SHADER_DIR=\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/shaders/\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/include\"","\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/include\"","\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glfw/include\"","\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glm\"","$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC ","$(inherited)");
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","-framework OpenGL","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "glew-shared.2.2.0";
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/System/Library/Frameworks,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/build/libglew_shared.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3366EE7A512C4895A1188ADF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		37AAAB2B3AAA4C12B2339AA8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4735C222A37447328AC8366F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		4C9A1917DBAF46798A09C800 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		503E1E7643954BB8B1E590B9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6567CE35949547128DCA03BE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake/lib/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = 2.2.0;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",libglew_shared_EXPORTS,GLEW_BUILD,GLEW_NO_GLU,"'SHADER_DIR=\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/shaders/\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/include\"","\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/include\"","\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glfw/include\"","\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glm\"","$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -fPIC ","$(inherited)");
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","-framework OpenGL","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "glew-shared.2.2.0";
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/System/Library/Frameworks,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/build/libglew_shared.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7070AC0E48F349299B09EB59 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,GLEW_NO_GLU,"'SHADER_DIR=\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/shaders/\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/include\"","\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/include\"","\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glfw/include\"","\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glm\"","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/System/Library/Frameworks,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/build/libglew_static.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		719ACD63AA1346FBB2B0AB15 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,GLEW_NO_GLU,"'SHADER_DIR=\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/shaders/\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/include\"","\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/include\"","\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glfw/include\"","\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glm\"","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/System/Library/Frameworks,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/build/libglew_static.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		74A7A23D5C2A4DE6ADDA07DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,GLEW_NO_GLU,"'SHADER_DIR=\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/shaders/\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/include\"","\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/include\"","\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glfw/include\"","\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glm\"","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/System/Library/Frameworks,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/build/libglew_static.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		79EB62BF4B3945C58869E7CB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7F54E072B975451C80AC4AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		84D57F8881CA49B3A197425A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/build";
+			};
+			name = MinSizeRel;
+		};
+		8E138E00603642C29D716D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AC8760516F034B909BFA44E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk;
+				SYMROOT = "/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/build";
+			};
+			name = Debug;
+		};
+		B916EBC261C84D3D917ED278 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BE0E34D0C4FA4CBE9095A18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/external/glew-cmake/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_STATIC,GLEW_NO_GLU,"'SHADER_DIR=\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/shaders/\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/include\"","\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glew-cmake/include\"","\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glfw/include\"","\"/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/external/glm\"","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glewd;
+				SECTORDER_FLAGS = "";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk/System/Library/Frameworks,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/build/libglew_static.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CA154AD9F4224D439C064544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DEE737CB937E458CB77826A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EF9F5E1D46284EB884FE5258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/paul/Desktop/ET 3/S5/Info Graphique/cg_intro_public-branch/TP1_material/c++/Build/build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00BA0BB5AD204A26AE198B7F /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA154AD9F4224D439C064544 /* Debug */,
+				20C024ACEBCD4BAFA1E39D85 /* Release */,
+				503E1E7643954BB8B1E590B9 /* MinSizeRel */,
+				79EB62BF4B3945C58869E7CB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		57F9710E24954E10B0407F5B /* Build configuration list for PBXNativeTarget "libglew_shared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136DB28BA7994B52AFD8696B /* Debug */,
+				2BBE6425AF2748C1BD52AB57 /* Release */,
+				6567CE35949547128DCA03BE /* MinSizeRel */,
+				03CB8C918FA949BA8B98BC31 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		62E35E43DD6946359DA2C17D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F54E072B975451C80AC4AE0 /* Debug */,
+				8E138E00603642C29D716D72 /* Release */,
+				37AAAB2B3AAA4C12B2339AA8 /* MinSizeRel */,
+				4C9A1917DBAF46798A09C800 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C66DA52A840D4A25B382D33A /* Build configuration list for PBXProject "glew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8760516F034B909BFA44E8 /* Debug */,
+				EF9F5E1D46284EB884FE5258 /* Release */,
+				84D57F8881CA49B3A197425A /* MinSizeRel */,
+				4735C222A37447328AC8366F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CAD2045788A547D1A382E252 /* Build configuration list for PBXNativeTarget "libglew_static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0E34D0C4FA4CBE9095A18F /* Debug */,
+				74A7A23D5C2A4DE6ADDA07DD /* Release */,
+				7070AC0E48F349299B09EB59 /* MinSizeRel */,
+				719ACD63AA1346FBB2B0AB15 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DC6FC351A55B46FC8012D866 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0405D6D3861840CB99C10B90 /* Debug */,
+				DEE737CB937E458CB77826A9 /* Release */,
+				3366EE7A512C4895A1188ADF /* MinSizeRel */,
+				B916EBC261C84D3D917ED278 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45AA398B28CC449EB73D10B4 /* Project object */;
+}

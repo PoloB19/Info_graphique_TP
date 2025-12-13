@@ -1,0 +1,8 @@
+Target dependency graph (4 targets)
+Target 'opengl_program' in project 'OpenGLProgram'
+➜ Explicit dependency on target 'libglew_static' in project 'OpenGLProgram'
+➜ Explicit dependency on target 'glfw' in project 'OpenGLProgram'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'OpenGLProgram'
+Target 'ZERO_CHECK' in project 'OpenGLProgram' (no dependencies)
+Target 'glfw' in project 'OpenGLProgram' (no dependencies)
+Target 'libglew_static' in project 'OpenGLProgram' (no dependencies)
